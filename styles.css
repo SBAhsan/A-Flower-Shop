@@ -174,7 +174,7 @@ header {
 .diff-color {
     color: #E55473;
     font-family: 'Lato', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
 }
 
@@ -192,14 +192,16 @@ header {
     width: 250px;
     height: 350px;
 }
-.signup-div{
+
+.signup-div {
     height: 500px;
     display: flex;
     justify-content: center;
     gap: 180px;
     align-items: center;
 }
-.signup-button{
+
+.signup-button {
     color: #FFF;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
@@ -209,36 +211,41 @@ header {
     background: #E55473;
     padding: 20px 43px;
 }
-.signup-texts{
+
+.signup-texts {
     text-align: center;
     padding-top: 30px;
 }
 
 /* insta styles */
 
-.insta-section{
+.insta-section {
     height: 600px;
     width: 70%;
     margin: auto;
     padding-bottom: 70px;
 }
-.insta-div{
+
+.insta-div {
     height: 600px;
     width: 70%;
     margin: auto;
     text-align: center;
 }
-.insta-photos{
+
+.insta-photos {
     display: flex;
-    justify-content: center;  
-    gap: 15px; 
+    justify-content: center;
+    gap: 15px;
     margin-left: 5px;
 }
-.insta-photo{
+
+.insta-photo {
     width: 260px;
     height: 300px;
 }
-.insta-title{
+
+.insta-title {
     color: #272727;
     text-align: center;
     font-family: 'Lato', sans-serif;
@@ -247,32 +254,36 @@ header {
     padding-bottom: 20px;
     padding-top: 100px;
 }
-.insta-para{
+
+.insta-para {
     color: rgba(39, 39, 39, 0.60);
     font-family: 'Lato', sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 30px;
     text-align: center;
-    padding-bottom: 20px;   
+    padding-bottom: 20px;
 }
 
 /* subscribe styles */
 
-.subs-section{
+.subs-section {
     height: 420px;
     width: 70%;
     margin: auto;
     background-image: url('Flower\ Asset/Rectangle 9.png');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 120px;
 }
-.subs-div{
+
+.subs-div {
     height: 450px;
-    text-align: center;   
-    padding-top: 150px;
+    text-align: center;
+    padding-top: 130px;
 }
-.subs-head{
+
+.subs-head {
     color: #272727;
     text-align: center;
     font-family: 'Lato', sans-serif;
@@ -280,7 +291,8 @@ header {
     font-weight: 800;
     padding-bottom: 20px;
 }
-.subs-para{
+
+.subs-para {
     color: rgba(39, 39, 39, 0.60);
     font-family: 'Lato', sans-serif;
     font-size: 15px;
@@ -289,7 +301,8 @@ header {
     text-align: center;
     padding-bottom: 20px;
 }
-.email{
+
+.email {
     width: 600px;
     color: #FFF;
     font-family: 'Lato', sans-serif;
@@ -298,4 +311,48 @@ header {
     border: 0;
     border-radius: 8px;
     padding: 25px 20px;
+}
+
+/* footer styles */
+
+footer {
+    background: #111010;
+    height: 450px;
+}
+
+.footer-head {
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.diff-color-2 {
+    color: #E55473;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.footer-para {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-div{
+    padding-top: 130px;
 }
